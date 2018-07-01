@@ -1,0 +1,24 @@
+{
+  "name": "@distdns/lookup",
+  "version": "0.1.1",
+  "description": "dWeb Library For MultiCast DNS Hostname>IP Lookups.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "bin": {
+    "dlookup": "./bin.js"
+  },
+  "dependencies": {
+    "@distdns/core": "distdns/core#master"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
